@@ -346,7 +346,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1869057112}
+  - {fileID: 709498999}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -756,10 +756,10 @@ RectTransform:
   m_Father: {fileID: 888829877}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7, y: -297}
-  m_SizeDelta: {x: 88.0568, y: 47.2693}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -4.7, y: 22}
+  m_SizeDelta: {x: 71.3895, y: 38.322205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &362478714
 MonoBehaviour:
@@ -1618,6 +1618,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &709498999
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'QR_GuitarraMaterial
+
+    38742'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 367e86e9a1a14f8eb42a64f60188d420, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &717482098
 GameObject:
   m_ObjectHideFlags: 0
@@ -1781,10 +1812,10 @@ RectTransform:
   m_Father: {fileID: 888829877}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 90, y: -297}
-  m_SizeDelta: {x: 88.0568, y: 47.2693}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -86.06009, y: 22}
+  m_SizeDelta: {x: 71.389496, y: 38.322205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &756375019
 MonoBehaviour:
@@ -2272,10 +2303,10 @@ RectTransform:
   m_Father: {fileID: 888829877}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 140, y: -241}
-  m_SizeDelta: {x: 88.0568, y: 47.2693}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -45.524063, y: 67.40036}
+  m_SizeDelta: {x: 71.389496, y: 38.322205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &910261915
 MonoBehaviour:
@@ -2561,10 +2592,10 @@ RectTransform:
   m_Father: {fileID: 888829877}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42, y: -241}
-  m_SizeDelta: {x: 88.0568, y: 47.2693}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -33.07522, y: 67.40036}
+  m_SizeDelta: {x: 71.3895, y: 38.322205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1174733997
 MonoBehaviour:
@@ -3270,10 +3301,10 @@ RectTransform:
   m_Father: {fileID: 888829877}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -103, y: -297}
-  m_SizeDelta: {x: 88.0568, y: 47.2693}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 77.470825, y: 22}
+  m_SizeDelta: {x: 71.3895, y: 38.322205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1421051129
 MonoBehaviour:
@@ -3416,10 +3447,10 @@ RectTransform:
   m_Father: {fileID: 888829877}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 49, y: -241}
-  m_SizeDelta: {x: 88.0568, y: 47.2693}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 40.700405, y: 67.40033}
+  m_SizeDelta: {x: 71.3895, y: 38.322205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1593337439
 MonoBehaviour:
@@ -3667,10 +3698,10 @@ RectTransform:
   m_Father: {fileID: 888829877}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -136.97162, y: -242}
-  m_SizeDelta: {x: 88.0568, y: 47.2693}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 49.92932, y: 66.58963}
+  m_SizeDelta: {x: 71.3895, y: 38.322205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1797545082
 MonoBehaviour:
@@ -3778,37 +3809,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797545080}
   m_CullTransparentMesh: 1
---- !u!21 &1869057112
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'QR_GuitarraMaterial
-
-    -3422'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 367e86e9a1a14f8eb42a64f60188d420, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1914567356
 GameObject:
   m_ObjectHideFlags: 0
